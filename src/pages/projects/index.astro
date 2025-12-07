@@ -1,0 +1,37 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getCollection } from 'astro:content'
+
+import ProjectItem from "@/components/project/ProjectItem.astro";
+
+import Paper from '@/assets/paper.svg'
+
+
+// const ALL_PAPERS = publications; // This will be replaced with dynamic data later
+
+const projects = (await getCollection('project'))
+	.sort((a, b) => a.data.years.localeCompare(b.data.years))
+
+---
+
+<Layout title="Publication">
+  <div class="prose max-w-none">
+    
+    <div class="flex items-center gap-2 mb-8">
+      <Paper class="size-12" fill="currentColor" />
+      <h1 class="text-3xl font-bold mt-4">Publications</h1>
+    </div>
+
+
+    <div class="space-y-8">
+      {
+        projects.map((project) => (
+
+          <ProjectItem project={project} />
+          
+        ))
+      }
+    </div>
+
+  </div>
+</Layout>

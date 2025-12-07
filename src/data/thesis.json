@@ -25,7 +25,8 @@
 	"category": "Master Thesis",
 	"year": 2025,
 	"role" : "Advisor",
-	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/thesis/belodedova2025.pdf"
+	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/thesis/belodedova2025.pdf",
+	"project": "saev"
 },
 {
 	"id": "zelle2024",
@@ -97,7 +98,8 @@
 	"category": "Bachelor Thesis",
 	"year": 2025,
 	"role" : "Advisor",
-	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/thesis/vandak2025.pdf"
+	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/thesis/vandak2025.pdf",
+	"project": "wikidata_events"
 },
 {   
 	"id": "wetz2016",

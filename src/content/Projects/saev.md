@@ -1,5 +1,6 @@
 ---
 name: "SAEVs Simulation Study"
+type: "student"
 full_name: "SAEVs Simulation Study"
 years: "2025"
 summary: "Shared Autonomous Electric Vehicle: A Simulation Study on Operational Efficiency and Service Dynamics"

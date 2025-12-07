@@ -1,5 +1,6 @@
 ---
 name: "Wikidata Entity Evolution"
+type: "student"
 full_name: "Wikidata Entity Evolution"
 years: "2024"
 summary: "Leveraging Large Language Models to Identify Event-Driven Changes in Wikidata Entities"

@@ -26,6 +26,7 @@ const thesis = defineCollection({
         category: z.string(),
         url: z.string().optional(),
         url0: z.string().optional(),
+        project: z.string().optional(),
     }),
 });
 
@@ -52,6 +53,7 @@ const project = defineCollection({
     schema: ({ image }) =>
         z.object({
             name: z.string(),
+            type: z.string(),
             full_name: z.string(),
             years: z.string(),
             summary: z.string(),

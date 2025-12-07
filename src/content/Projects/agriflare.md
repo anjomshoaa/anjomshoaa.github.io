@@ -1,5 +1,6 @@
 ---
 name: "AgriFLARE"
+type: "student"
 full_name: Towards Turstworthy and Privacy-Preserving AI in Smart Agricluture
 years: 2025-2028
 summary: "This PhD project proposes the development of a regulation-compliant, privacy-preserving, and decentralized AI framework designed to support autonomous decision-making in smart agriculture specifically targeting vertical farming (VF) and aquaponics systems."
