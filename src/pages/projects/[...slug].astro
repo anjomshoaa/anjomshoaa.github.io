@@ -1,0 +1,58 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+
+import ProjectPage from '@/components/project/ProjectPage.astro';
+import Layout from "@/layouts/Layout.astro";
+
+import { render } from 'astro:content';
+
+
+export async function getStaticPaths() {
+	const projects = await getCollection('project');
+	return projects.map((project) => ({
+		params: { slug: project.id },
+		props: project,
+	}));
+}
+type Props = CollectionEntry<'project'>;
+const project = Astro.props;
+const { Content } = await render(project);
+---
+<Layout>
+	<ProjectPage {...project.data}>
+		<Content />
+	</ProjectPage>
+
+			<!-- Post content -->
+			<div
+				class='prose mt-8 prose-h2:text-2xl prose-h2:font-bold prose-h2:mb-4
+         prose-h3:text-xl prose-h3:font-semibold prose-h3:mb-3
+         prose-p:mb-4 prose-p:leading-relaxed
+         prose-strong:text-base-content prose-strong:font-bold
+         prose-em:italic
+         prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+         prose-code:text-accent prose-code:bg-base-200 prose-code:px-1 prose-code:py-0.5 prose-code:rounded
+         prose-blockquote:border-l-4 prose-blockquote:border-accent prose-blockquote:pl-4 prose-blockquote:italic
+         prose-ul:list-disc prose-ul:pl-6
+         prose-ol:list-decimal prose-ol:pl-6
+         prose-li:mb-2
+         prose-img:rounded-lg prose-img:my-8'
+        >
+                <Content />
+			</div>
+
+</Layout>
+
+
+
+<!-- <Layout 
+	content_type="video.other"
+	title= {video.data.title}
+	description = {video.data.title}
+	image = {video.data.thumbnail_hq.src}
+	video = {video.data.videoId} >
+
+	<VideoPost {...video.data}>
+		<Content />
+	</VideoPost>
+</Layout> -->

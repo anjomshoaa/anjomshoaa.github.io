@@ -46,8 +46,10 @@
     {
         "id": 5,
         "type": "Conference Paper",
-        "title": "Exploiting mashup architecture in business use cases",
-        "venue": "International Conference on Network-Based Information Systems, Indianapolis, USA, pp. xx\u2013xxvii. IEEE",
+        "title": "Exploiting Mashup Architecture in Business Use Cases",
+        "venue": "International Conference on Network-Based Information Systems, Indianapolis, USA",
+        "pages": "xx-xxvii",
+        "publisher": "IEEE",
         "year": 2009,
         "authors": "Amin Anjomshoaa, Gerald Bader, A Min Tjoa"
     },
@@ -115,7 +117,7 @@
     {
         "id": 12,
         "type": "Conference Paper",
-        "title": "Web service based business processes automation using semantic personal information management systems\u2013the semantic life case",
+        "title": "Web Service Based Business Processes Automation using Semantic Personal Information Management Systems: The Semantic Life Case",
         "venue": "International Conference on Practical Aspects of Knowledge Management",
         "year": 2006,
         "publisher": "Springer Berlin Heidelberg Berlin, Heidelberg",
@@ -490,15 +492,6 @@
         "pages": "4566-4570"
     },
     {
-        "id": 49,
-        "type": "Conference Paper",
-        "title": "A Data Mashup Engine for Smartphones Based on XProc",
-        "venue": "Proceedings of International Conference on Advances in Mobile Computing & Multimedia",
-        "year": 2013,
-        "authors": "Harald Hofst\u00e4tter, Amin Anjomshoaa, A Min Tjoa",
-        "pages": "440-444"
-    },
-    {
         "id": 50,
         "type": "Journal Paper",
         "title": "SEMERGY: Performance-guided building design and refurbishment within a semantically augmented optimization environment",
@@ -691,11 +684,11 @@
     {
         "id": 69,
         "type": "Conference Paper",
-        "title": "A comprehensive building model for performance-guided Decision Support",
+        "title": "A Comprehensive Building Model for Performance-guided Decision Support",
         "venue": "Proceedings of the 2nd Central European Symposium on Building Physics 9-11 September 2013, Vienna, Austria",
         "isbn": "385437321X",
         "year": 2013,
-        "publisher": "\u00d6KK-Editions",
+        "publisher": "ÖKK-Editions",
         "authors": "Neda Ghiassi, Ferial Shayeganfar, Ulrich Pont, Ardeshir Mahdavi, Johannes Heurix, Stefan Fenz, Amin Anjomshoaa, A Min Tjoa",
         "pages": "35-42"
     },
@@ -725,7 +718,7 @@
         "venue": "Proceedings of the 2nd Central European Symposium on Building Physics 9-11 September 2013, Vienna, Austria",
         "isbn": "385437321X",
         "year": 2013,
-        "publisher": "\u00d6KK-Editions",
+        "publisher": "ÖKK-Editions",
         "authors": "Ulrich Pont, Ferial Shayeganfar, Neda Ghiassi, Mahnameh Taheri, Christian Sustr, Ardeshir Mahdavi, Johannes Heurix, Stefan Fenz, Thomas Neubauer, A Min Tjoa",
         "pages": "19-26"
     },
@@ -793,7 +786,7 @@
         "year": 2019,
         "publisher": "IEEE",
         "url": "https://ieeexplore.ieee.org/abstract/document/8767186",
-        "authors": "Simone Mora, Amin Anjomshoaa, Tom Benson, F\u00e1bio Duarte, Carlo Ratti",
+        "authors": "Simone Mora, Amin Anjomshoaa, Tom Benson, Fabio Duarte, Carlo Ratti",
         "pages": "743-748"
     },
     {
@@ -806,7 +799,7 @@
         "isbn": "0027-8424",
         "year": 2019,
         "publisher": "National Academy of Sciences",
-        "authors": "Kevin P O\u2019Keeffe, Amin Anjomshoaa, Steven H Strogatz, Paolo Santi, Carlo Ratti",
+        "authors": "Kevin P O'Keeffe, Amin Anjomshoaa, Steven H Strogatz, Paolo Santi, Carlo Ratti",
         "pages": "12752-12757"
     },
     {
@@ -930,7 +923,7 @@
         "isbn": "1450321062",
         "year": 2013,
         "publisher": "ACM",
-        "authors": "Amin Anjomshoaa, A Min Tjoa, Harald Hofst\u00e4tter",
+        "authors": "Harald Hofstätter, Amin Anjomshoaa, A Min Tjoa",
         "pages": "440-444"
     },
     {
@@ -957,7 +950,7 @@
     {
         "id": 94,
         "type": "Conference Paper",
-        "title": "Semergy-neue Ans\u00e4tze in der Planung energieeffizienter Geb\u00e4ude",
+        "title": "Semergy-neue Ansätze in der Planung energieeffizienter Gebäude",
         "venue": "11. ZIG-Planerseminar-Handouts",
         "year": 2015,
         "authors": "Ulrich Pont, Neda Ghiassi, Ferial Shayeganfar, Stefan Fenz, Johannes Heurix, Amin Anjomshoaa, Kristopher Hammerberg, Thomas Neubauer, Mahnameh Taheri, Christian Sustr"
@@ -969,7 +962,7 @@
         "venue": "Proceedings of the 2nd Central European Symposium on Building Physics 9-11 September 2013, Vienna, Austria",
         "isbn": "385437321X",
         "year": 2013,
-        "publisher": "\u00d6KK-Editions",
+        "publisher": "ÖKK-Editions",
         "authors": "Johannes Heurix, Stefan Fenz, Amin Anjomshoaa, Thomas Neubauer, A Min Tjoa, Mahnameh Taheri, Ferial Shayeganfar, Ulrich Pont, Neda Ghiassi, Christian Sustr",
         "pages": "27-34"
     },
@@ -1081,7 +1074,7 @@
         "volume": "10",
         "url": "https://ceur-ws.org/Vol-3950/short2.pdf",
         "year": 2024,
-        "authors": "Gregor Vand\u00e1k, Amin Anjomshoaa",
+        "authors": "Gregor Vandák, Amin Anjomshoaa",
         "pages": "15-412"
     },
     {
@@ -1107,14 +1100,14 @@
     {
         "id": 108,
         "type": "Journal Paper",
-        "title": "Enhancing rail transit accessibility: a data-centric approach to Park and Ride",
+        "title": "Enhancing Rail Transit Accessibility: A Data-centric Approach to Park and Ride",
         "venue": "Transportation Research Procedia",
         "volume": "86",
         "isbn": "2352-1465",
         "year": 2025,
         "publisher": "Elsevier",
         "url": "https://www.sciencedirect.com/science/article/pii/S2352146525002984",
-        "authors": "Shahrom Sohi, Gulliver Wutz, Richard Hrivn\u00e1k, Felix Reiter, David Pichler, Amin Anjomshoaa, Axel Polleres",
+        "authors": "Shahrom Sohi, Gulliver Wutz, Richard Hrivnák, Felix Reiter, David Pichler, Amin Anjomshoaa, Axel Polleres",
         "pages": "405-412"
     },
     {

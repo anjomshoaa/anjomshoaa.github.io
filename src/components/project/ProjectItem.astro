@@ -1,8 +1,12 @@
 ---
 import { highlightAuthor } from "@/lib/utils";
+import {render} from 'astro:content'
 
 const {project} = Astro.props;
 const {name, type, full_name, years, summary, featuredImage, heroImage, tags} = project.data;
+
+// const { Content } = await render(project);
+
 ---
 
 
@@ -22,15 +26,13 @@ const {name, type, full_name, years, summary, featuredImage, heroImage, tags} = 
 		{summary}
 		</p>
 
-<div class="flex space-x-2 justify-end m-0">
+		<div class="flex space-x-2 justify-end m-0">
 
-		<div class="card-actions">
-			<a href={`/papers/cite/${project.id}`} class="btn btn-sm btn-secondary ">
-			BibTeX Citation
-			</a>
+				<div class="card-actions">
+					<a href={`/projects/${project.id}`} class="btn btn-sm btn-secondary ">
+					View Details
+					</a>
+				</div>
 		</div>
-</div>
-
-
 	</div>
 </div>

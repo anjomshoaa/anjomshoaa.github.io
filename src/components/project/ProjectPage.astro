@@ -1,0 +1,50 @@
+---
+
+import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+
+type Props = CollectionEntry<'project'>['data'];
+
+const {name, type, full_name, years, summary, featuredImage, heroImage, team, papers, tags} = Astro.props;
+const project_id = Astro.params['slug'];
+
+---
+
+	<div class='max-w-4xl mx-auto'>
+		<article
+			class='prose max-w-none prose-headings:text-base-content prose-p:text-base-content/80'
+		>
+			<!-- Header section -->
+			<div class='mb-8 border-b pb-8'>
+				<h1 class='text-4xl font-bold mb-4 text-base-content'>{name}</h1>
+			</div>
+
+
+            <div class="mb-8">
+                {heroImage &&
+                    <Image
+                        src={heroImage}
+                        alt={`Hero image for project ${name}`}
+                        class="rounded-lg"
+                    />
+                }
+            </div>
+
+			<!-- Post content -->
+			<div
+				class='prose mt-8 prose-h2:text-2xl prose-h2:font-bold prose-h2:mb-4
+         prose-h3:text-xl prose-h3:font-semibold prose-h3:mb-3
+         prose-p:mb-4 prose-p:leading-relaxed
+         prose-strong:text-base-content prose-strong:font-bold
+         prose-em:italic
+         prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+         prose-code:text-accent prose-code:bg-base-200 prose-code:px-1 prose-code:py-0.5 prose-code:rounded
+         prose-blockquote:border-l-4 prose-blockquote:border-accent prose-blockquote:pl-4 prose-blockquote:italic
+         prose-ul:list-disc prose-ul:pl-6
+         prose-ol:list-decimal prose-ol:pl-6
+         prose-li:mb-2
+         prose-img:rounded-lg prose-img:my-8'
+        >
+			</div>
+		</article>
+	</div>
