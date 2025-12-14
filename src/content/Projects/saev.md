@@ -25,6 +25,8 @@ The discovery of radium marked a significant milestone in the field of radioacti
 
 In 1898, my husband Pierre and I discovered the element radium. This discovery was the result of years of research and experimentation. Radium is a highly radioactive element with remarkable properties...
 
+![image](./images/saev_logo.png)
+
 ### Key Findings
 
 - Radium is highly radioactive

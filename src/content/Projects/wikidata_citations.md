@@ -1,6 +1,6 @@
 ---
 name: "Wikidata Scientific Citations"
-type: "research"
+type: "hidden"
 full_name: "Wikidata Scientific Citations"
 years: "2024"
 summary: "Assessing the Reliability and Scientific Rigor of References in Wikidata"

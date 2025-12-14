@@ -1,6 +1,6 @@
 ---
 name: "Heat, health, and habitats"
-type: "research"
+type: "hidden"
 full_name: "Heat, health, and habitats"
 years: "2025"
 summary: "Analyzing the intersecting risks of climate and demographic shifts in Austrian districts."
