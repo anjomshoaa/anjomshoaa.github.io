@@ -1182,5 +1182,33 @@
         "venue": "The Fourth International Conference on Information Integration and Web-based Applications & Services (iiWAS)",
         "year": 2002,
         "authors": "Amin Anjomshoaa, Alexander Schatten, A Min Tjoa, M. Hassan Shafazand"
+    },
+    {
+        "id": 116,
+        "type": "Book Chapter",
+        "title": "Building Incident-Centric Knowledge Graphs: Enhancing Crisis Management with Data-Driven Insights",
+        "venue": "Dynamics of Disasters: Hybrid Threats, Cham: Springer Nature Switzerland",
+        "isbn": "9783032086051",
+        "doi": "https://doi.org/10.1007/978-3-032-08606-8_8",
+        "year": 2026,
+        "publisher": "Springer",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-08606-8_8",
+        "authors": "Hannah Schuster, Amin Anjomshoaa, Axel Polleres",
+        "pages": "101-111"
+    },
+
+    {
+        "id": 118,
+        "type": "Conference Paper",
+        "title": "AI-Driven Precision Agriculture in the Context of Smart Cities: A Pathway to§ Food Security and Environmental Resilience",
+        "authors": "Yazzed Abdalla, Rafael Kupsa, Amin Anjomshoaa, Markus Tauber",
+        "doi": "10.1109/ISC266238.2025.11293255",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11293255",
+        "venue": "2025 IEEE International Smart Cities Conference (ISC2)",
+        "publisher": "IEEE",
+        "pages": "1-6",
+        "year": 2025
     }
+
+
 ]
