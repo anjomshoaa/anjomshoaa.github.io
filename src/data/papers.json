@@ -1191,16 +1191,16 @@
         "id": 116,
         "type": "Book Chapter",
         "title": "Building Incident-Centric Knowledge Graphs: Enhancing Crisis Management with Data-Driven Insights",
-        "venue": "Dynamics of Disasters: Hybrid Threats, Cham: Springer Nature Switzerland",
-        "isbn": "9783032086051",
-        "doi": "https://doi.org/10.1007/978-3-032-08606-8_8",
-        "year": 2026,
-        "publisher": "Springer",
-        "url": "https://link.springer.com/chapter/10.1007/978-3-032-08606-8_8",
         "authors": "Hannah Schuster, Amin Anjomshoaa, Axel Polleres",
-        "pages": "101-111"
+        "doi": "10.1007/978-3-032-08606-8_8",
+        "isbn": "978-3-032-08606-8",
+        "venue": "Dynamics of Disasters: Hybrid Threats",
+        "publisher": "Springer Nature Switzerland",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-08606-8_8",
+        "volume": "229",
+        "pages": "101-111",
+        "year": 2026
     },
-
     {
         "id": 118,
         "type": "Conference Paper",
@@ -1225,20 +1225,7 @@
         "publisher": "Zenodo",
         "year": 2026
     },
-    {
-        "id": 120,
-        "type": "Book Chapter",
-        "title": "Building Incident-Centric Knowledge Graphs: Enhancing Crisis Management with Data-Driven Insights",
-        "authors": "Hannah Schuster, Amin Anjomshoaa, Axel Polleres",
-        "doi": "10.1007/978-3-032-08606-8_8",
-        "isbn": "978-3-032-08606-8",
-        "url": "https://doi.org/10.1007/978-3-032-08606-8_8",
-        "venue": "Dynamics of Disasters: Hybrid Threats",
-        "volume": "229",
-        "publisher": "Springer Nature Switzerland",
-        "pages": "101-111",
-        "year": 2026
-    },
+
     {
         "id": 121,
         "type": "Conference Paper",
