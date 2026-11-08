@@ -885,6 +885,7 @@
         "title": "A transfer learning framework for iot-enabled environments",
         "venue": "Proceedings of the International Conference on Internet-of-Things Design and Implementation",
         "year": 2021,
+        "doi": "10.1145/3450268.3458855",
         "authors": "Amin Anjomshoaa, Edward Curry",
         "pages": "275-276"
     },
@@ -1004,7 +1005,7 @@
         "id": 99,
         "type": "Conference Paper",
         "title": "From Semantic Web to Wisdom Web: A Retrospective on the Journey to 2043",
-        "venue": "Proceedings of the ESWC",
+        "venue": "Proceedings of the ESWC 2023",
         "volume": "2043",
         "year": 2023,
         "url": "https://aic.ai.wu.ac.at/~anjomshoaa/publications/tchat-etal2023ESCW.pdf",
@@ -1017,6 +1018,7 @@
         "venue": "International Conference on Advanced Information Systems Engineering",
         "year": 2023,
         "publisher": "Springer International Publishing Cham",
+        "doi": "10.1007/978-3-031-34985-0_7",
         "url": "https://link.springer.com/chapter/10.1007/978-3-031-34985-0_7",
         "authors": "Amin Anjomshoaa, Hannah Schuster, Johannes Wachs, Axel Polleres",
         "pages": "67-73"
@@ -1039,6 +1041,7 @@
         "issue": "1",
         "isbn": "2045-2322",
         "year": 2025,
+        "doi": "10.1038/s41598-025-05676-9",
         "publisher": "Nature Publishing Group UK London",
         "url": "https://www.nature.com/articles/s41598-025-05676-9.pdf",
         "authors": "Hannah Schuster, Axel Polleres, Amin Anjomshoaa, Johannes Wachs",
@@ -1106,6 +1109,7 @@
         "isbn": "2352-1465",
         "year": 2025,
         "publisher": "Elsevier",
+        "doi":"10.1016/j.trpro.2025.04.051",
         "url": "https://www.sciencedirect.com/science/article/pii/S2352146525002984",
         "authors": "Shahrom Sohi, Gulliver Wutz, Richard Hrivnák, Felix Reiter, David Pichler, Amin Anjomshoaa, Axel Polleres",
         "pages": "405-412"
@@ -1208,7 +1212,50 @@
         "publisher": "IEEE",
         "pages": "1-6",
         "year": 2025
+    },
+
+    {
+        "id": 119,
+        "type": "Conference Paper",
+        "title": "Giving Building Users a Voice: an AI-assisted Approach",
+        "authors": "Mahdavi, Ardeshir, Amin Anjomshoaa, Zsófia Deme Bélafi, Tamás Csoknyai, Christiane Berger",
+        "doi": "10.5281/zenodo.22679642",
+        "url": "https://zenodo.org/records/22679642",
+        "venue": "European Conferences on Product and Process Modeling in the Building Industry (ECPPM)",
+        "publisher": "Zenodo",
+        "year": 2026
+    },
+    {
+        "id": 120,
+        "type": "Book Chapter",
+        "title": "Building Incident-Centric Knowledge Graphs: Enhancing Crisis Management with Data-Driven Insights",
+        "authors": "Hannah Schuster, Amin Anjomshoaa, Axel Polleres",
+        "doi": "10.1007/978-3-032-08606-8_8",
+        "isbn": "978-3-032-08606-8",
+        "url": "https://doi.org/10.1007/978-3-032-08606-8_8",
+        "venue": "Dynamics of Disasters: Hybrid Threats",
+        "volume": "229",
+        "publisher": "Springer Nature Switzerland",
+        "pages": "101-111",
+        "year": 2026
+    },
+    {
+        "id": 121,
+        "type": "Conference Paper",
+        "title": "SOGO: A Scaling Ontology for Geospatial Observations in Knowledge Graphs",
+        "authors": "Amin Anjomshoaa",
+        "url": "https://ceur-ws.org/Vol-4313/SPARK-paper8.pdf",
+        "venue": "ISWC Workshop Joint Proceedings 2026",
+        "publisher": "CEUR-WS",
+        "year": 2026
+    },
+    {
+        "id": 122,
+        "type": "Conference Paper",
+        "title": "From Data Spaces to Agent Spaces",
+        "authors": "Axel Polleres, Diego Rincon-Yanez, Amin Anjomshoaa, Daniel Dobriy, Emanuel Sallinger",
+        "venue": "4th International Workshop on Semantics in Dataspaces (SDS 2026)",
+        "publisher": "CEUR-WS",
+        "year": 2026
     }
-
-
 ]
