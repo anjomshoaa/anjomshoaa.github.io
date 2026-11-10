@@ -1,6 +1,7 @@
 ---
 name: "Linked Widgets"
-type: "research"
+published: false
+type: "featured"
 full_name: "Linked Widgets"
 years: 2009-2014
 summary: "Linked Widgest projects ..."

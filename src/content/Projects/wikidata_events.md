@@ -1,5 +1,6 @@
 ---
 name: "Wikidata Entity Evolution"
+published: true
 type: "student"
 full_name: "Wikidata Entity Evolution"
 years: "2024"

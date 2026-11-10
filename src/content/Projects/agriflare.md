@@ -1,5 +1,6 @@
 ---
 name: "AgriFLARE"
+published: false
 type: "student"
 full_name: Towards Turstworthy and Privacy-Preserving AI in Smart Agricluture
 years: 2025-2028

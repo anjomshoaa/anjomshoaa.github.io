@@ -1,5 +1,5 @@
 ---
-import { type CollectionEntry, getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection, getEntries } from 'astro:content';
 
 import ProjectPage from '@/components/project/ProjectPage.astro';
 import Layout from "@/layouts/Layout.astro";
@@ -16,7 +16,13 @@ export async function getStaticPaths() {
 }
 type Props = CollectionEntry<'project'>;
 const project = Astro.props;
+
+
+const papers = project.data.papers
+  ? await getEntries(project.data.papers)
+  : [];
 const { Content } = await render(project);
+
 ---
 <Layout>
 	<ProjectPage {...project.data}>
@@ -40,6 +46,25 @@ const { Content } = await render(project);
         >
                 <Content />
 			</div>
+
+
+---
+
+<h2>Publications</h2>
+
+<ul>
+  {papers.map((paper) => (
+    <li>
+      <strong>{paper.data.title}</strong>
+      <p>{paper.data.authors}</p>
+      <span>{paper.data.year}</span>
+    </li>
+  ))}
+</ul>
+
+
+
+
 
 </Layout>
 

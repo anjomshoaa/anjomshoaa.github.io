@@ -1,6 +1,7 @@
 ---
 name: "CRISP Knowledge Graph"
-type: "research"
+published: true
+type: "featured"
 full_name: "CRISP Knowledge Graph"
 years: 2022-2024
 summary: "The CRISP Knowlege Graph aims to establish the backbone of information integration for gathering Austrian infrastructure systems pertinent for crisis management."
@@ -11,8 +12,9 @@ team:
     - Amin Anjomshoaa
     - Hannah Schuster 
 papers:
-    - d2r2_eswc2023
-    - caise2023
+    - "100"
+    - "116"
+    - "115"
 ---
 
 CRISP Project Description

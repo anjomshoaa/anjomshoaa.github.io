@@ -1,6 +1,7 @@
 ---
 name: "City Scanner"
-type: "research"
+published: false
+type: "featured"
 full_name: "City Scanner Drive-by Urban Environmental Sensing"
 years: 2009-2014
 summary: "City Scanner project ..."

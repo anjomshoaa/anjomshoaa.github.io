@@ -10,6 +10,7 @@ import Paper from '@/assets/paper.svg'
 // const ALL_PAPERS = publications; // This will be replaced with dynamic data later
 
 const projects = (await getCollection('project'))
+  .filter((project) => project.data.published === true && project.data.type === 'featured')
 	.sort((a, b) => a.data.years.localeCompare(b.data.years))
 
 ---

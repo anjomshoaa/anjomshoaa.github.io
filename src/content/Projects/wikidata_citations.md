@@ -1,5 +1,6 @@
 ---
 name: "Wikidata Scientific Citations"
+published: true
 type: "hidden"
 full_name: "Wikidata Scientific Citations"
 years: "2024"

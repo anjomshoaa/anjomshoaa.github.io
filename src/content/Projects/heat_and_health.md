@@ -1,5 +1,6 @@
 ---
 name: "Heat, health, and habitats"
+published: false
 type: "hidden"
 full_name: "Heat, health, and habitats"
 years: "2025"

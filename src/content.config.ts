@@ -53,6 +53,7 @@ const project = defineCollection({
     schema: ({ image }) =>
         z.object({
             name: z.string(),
+            published: z.boolean(),
             type: z.string(),
             full_name: z.string(),
             years: z.string(),
