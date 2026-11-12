@@ -1,146 +1,162 @@
 [
 {
-    "id": "2025-11-20-ehds",
-    "title": "From Data to Actionable Insights in Healthcare", 
-    "venue": "European Health Data Space Event, Vienna, Austria", 
-    "category": "Invited Talk",
-    "date": "November 20, 2025", 
-    "url": "https://aic.ai.wu.ac.at/~anjomshoaa/slides/DIO_2025.pdf" 
+	"id": "2026-10-26-spark",
+	"title": "SOGO: A Scaling Ontology for Geospatial Observations in Knowledge Graphs", 
+	"venue": "First International Workshop on Spatial Intelligence and Reasoning Enabled by Knowledge Graphs and Foundation Models, Bari, Italy", 
+	"category": "Paper Presentation",
+	"date": "October 26, 2026", 
+	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/slides/SPARK_2026.pdf" 
 },
 {
-    "id": "2025-10-06-ensuresmartcities",
-    "title": "Neuro-Symbolic AI for Resilient Smart City Systems", 
-    "venue": "ENSURE Workshop, 11th IEEE International Smart Cities Conference, Patras, Greece", 
-    "category": "Keynote",
-    "date": "October 6, 2025", 
-    "url": "" 
+	"id": "2026-07-17-spark",
+	"title": "Enabling Spatial Intelligence in Knowledge Graphs", 
+	"venue": "DCSE Summer School, Gadjah Mada University, Indonesia", 
+	"category": "Keynote",
+	"date": "July 17, 2026", 
+	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/slides/DCSE_2026.pdf" 
 },
 {
-    "id": "2025-10-06-precisionagriculture",
-    "title": "AI-Driven Precision Agriculture in the Context ofSmart Cities: A Pathway to Food Security andEnvironmental Resilience",
-    "venue": "11th IEEE International Smart Cities Conference, Patras, Greece",
-    "category": "Paper Presentation",
-    "date": "October 6, 2025",
-    "url": ""
+	"id": "2025-11-20-ehds",
+	"title": "From Data to Actionable Insights in Healthcare", 
+	"venue": "European Health Data Space Event, Vienna, Austria", 
+	"category": "Invited Talk",
+	"date": "November 20, 2025", 
+	"url": "https://aic.ai.wu.ac.at/~anjomshoaa/slides/DIO_2025.pdf" 
 },
 {
-    "id": "2025-10-07-smartcitiespanel",
-    "title": "Navigating the Future of Smart Cities: Towards Sustainability, Resilience and Participation",
-    "venue": "11th IEEE International Smart Cities Conference, Patras, Greece",
-    "category": "Panel Discussion",
-    "date": "October 7, 2025",
-    "url": ""
+	"id": "2025-10-06-ensuresmartcities",
+	"title": "Neuro-Symbolic AI for Resilient Smart City Systems", 
+	"venue": "ENSURE Workshop, 11th IEEE International Smart Cities Conference, Patras, Greece", 
+	"category": "Keynote",
+	"date": "October 6, 2025", 
+	"url": "" 
 },
 {
-    "id": "2025-04-11-knowledgegraphs",
-    "title": "Knowledge Graphs in the AI-Driven Era: Emerging Trends and Real-World Applications",
-    "venue": "10th Winter Seminar Series, Sharif University of Technology, Tehran, Iran",
-    "category": "Invited Talk",
-    "date": "April 11, 2025",
-    "url": ""
+	"id": "2025-10-06-precisionagriculture",
+	"title": "AI-Driven Precision Agriculture in the Context ofSmart Cities: A Pathway to Food Security andEnvironmental Resilience",
+	"venue": "11th IEEE International Smart Cities Conference, Patras, Greece",
+	"category": "Paper Presentation",
+	"date": "October 6, 2025",
+	"url": ""
+},
+{
+	"id": "2025-10-07-smartcitiespanel",
+	"title": "Navigating the Future of Smart Cities: Towards Sustainability, Resilience and Participation",
+	"venue": "11th IEEE International Smart Cities Conference, Patras, Greece",
+	"category": "Panel Discussion",
+	"date": "October 7, 2025",
+	"url": ""
+},
+{
+	"id": "2025-04-11-knowledgegraphs",
+	"title": "Knowledge Graphs in the AI-Driven Era: Emerging Trends and Real-World Applications",
+	"venue": "10th Winter Seminar Series, Sharif University of Technology, Tehran, Iran",
+	"category": "Invited Talk",
+	"date": "April 11, 2025",
+	"url": ""
 }, 
 
 {
-    "id": "2024-08-12-kgapplications",
-    "title": "Knowledge Graphs Applications in the AI-Driven Era",
-    "venue": "Kerman Province Research Week 2024, Kerman, Iran",
-    "category": "Invited Talk",
-    "date": "August 12, 2024",
-    "url": ""
+	"id": "2024-08-12-kgapplications",
+	"title": "Knowledge Graphs Applications in the AI-Driven Era",
+	"venue": "Kerman Province Research Week 2024, Kerman, Iran",
+	"category": "Invited Talk",
+	"date": "August 12, 2024",
+	"url": ""
 }, 
 
 {
-    "id": "2024-07-17-icicos2024",
-    "title": "Synergizing Data Integration and Crisis Management using Knowledge Graphs",
-    "venue": "The 7th International Conference onInformatics and Computing Science (ICICoS2024)",
-    "category": "Keynote",
-    "date": "July 17, 2024",
-    "url": ""
+	"id": "2024-07-17-icicos2024",
+	"title": "Synergizing Data Integration and Crisis Management using Knowledge Graphs",
+	"venue": "The 7th International Conference on Informatics and Computing Science (ICICoS2024)",
+	"category": "Keynote",
+	"date": "July 17, 2024",
+	"url": ""
 }, 
 
 {
-    "id": "2023-11-16-interdisciplinarydatascience",
-    "title": "Navigating Complexity, The Power of Connecting the Dots in Interdisciplinary Data Science",
-    "venue": "Institute for Data, Process and Knowledge Management, Vienna University of Economics and Business (WU Wien)",
-    "category": "Invited Talk",
-    "date": "November 16, 2023",
-    "url": ""
+	"id": "2023-11-16-interdisciplinarydatascience",
+	"title": "Navigating Complexity, The Power of Connecting the Dots in Interdisciplinary Data Science",
+	"venue": "Institute for Data, Process and Knowledge Management, Vienna University of Economics and Business (WU Wien)",
+	"category": "Invited Talk",
+	"date": "November 16, 2023",
+	"url": ""
 }, 
 
 
 {
-    "id": "2022-04-13-democratizingenvironmentaldata",
-    "title": "Democratizing Environmental Data in Smart Cities",
-    "venue": "IEEE Smart Cities Week 2022, Workshop on Smart Cities: People-Centric Situation-Aware Approaches",
-    "category": "Invited Talk",
-    "date": "April 13, 2022",
-    "url": ""
+	"id": "2022-04-13-democratizingenvironmentaldata",
+	"title": "Democratizing Environmental Data in Smart Cities",
+	"venue": "IEEE Smart Cities Week 2022, Workshop on Smart Cities: People-Centric Situation-Aware Approaches",
+	"category": "Invited Talk",
+	"date": "April 13, 2022",
+	"url": ""
 },
 {
-    "id": "2022-02-28-knowledgegraphs",
-    "title": "Knowledge Graphs and their Applications in Intelligent Systems",
-    "venue": "9th Iranian Congress on Fuzzy and Intelligent Systems (IFIS 2022)",
-    "category": "Invited Talk",
-    "date": "February 28, 2022",
-    "url": ""
+	"id": "2022-02-28-knowledgegraphs",
+	"title": "Knowledge Graphs and their Applications in Intelligent Systems",
+	"venue": "9th Iranian Congress on Fuzzy and Intelligent Systems (IFIS 2022)",
+	"category": "Invited Talk",
+	"date": "February 28, 2022",
+	"url": ""
 }, 
 {
-    "id": "2021-08-29-introductiontodatascience",
-    "title": "Introduction to Data Science",
-    "venue": "52nd Annual Iranian Mathematics Conference, Kerman, Iran",
-    "category": "Workshop",
-    "date": "August 29, 2021",
-    "url": ""
+	"id": "2021-08-29-introductiontodatascience",
+	"title": "Introduction to Data Science",
+	"venue": "52nd Annual Iranian Mathematics Conference, Kerman, Iran",
+	"category": "Workshop",
+	"date": "August 29, 2021",
+	"url": ""
 },
 {
-    "id": "2020-12-13-mathsmartcities",
-    "title": "The Math Behind Smart Cities",
-    "venue": "Mahani Mathematical Research Center, Kerman University, Iran",
-    "category": "Invited Talk",
-    "date": "December 13, 2020",
-    "url": ""
+	"id": "2020-12-13-mathsmartcities",
+	"title": "The Math Behind Smart Cities",
+	"venue": "Mahani Mathematical Research Center, Kerman University, Iran",
+	"category": "Invited Talk",
+	"date": "December 13, 2020",
+	"url": ""
 },
 {
-    "id": "2017-11-11-drivebysensing",
-    "title": "Drive-by Sensing - A Disruptive Sensing Approach for Smart City Applications",
-    "venue": "Austrian Institute of Technology (AIT), Vienna, Austria",
-    "category": "Invited Talk",
-    "date": "November 11, 2017",
-    "url": ""
+	"id": "2017-11-11-drivebysensing",
+	"title": "Drive-by Sensing - A Disruptive Sensing Approach for Smart City Applications",
+	"venue": "Austrian Institute of Technology (AIT), Vienna, Austria",
+	"category": "Invited Talk",
+	"date": "November 11, 2017",
+	"url": ""
 },
 
 
 {
-    "id": "2024-11-12-wikidatareferences",
-    "title": "Assessing the Reliability and Scientific Rigor of References in Wikidata",
-    "venue": "Scientific Knowledge: Representation, Discovery, and Assessment 2024 Workshop (Sci-K 2024), Baltimore, Maryland, USA",
-    "category": "Invited Talk",
-    "date": "November 12, 2024",
-    "url": ""
+	"id": "2024-11-12-wikidatareferences",
+	"title": "Assessing the Reliability and Scientific Rigor of References in Wikidata",
+	"venue": "Scientific Knowledge: Representation, Discovery, and Assessment 2024 Workshop (Sci-K 2024), Baltimore, Maryland, USA",
+	"category": "Invited Talk",
+	"date": "November 12, 2024",
+	"url": ""
 },
 {
-    "id": "2024-11-11-llmeventdrivenwikidata",
-    "title": "Leveraging Large Language Models to Identify Event-Driven Changes in Wikidata Entities",
-    "venue": "Retrieval-Augmented Generation Enabled by Knowledge Graphs 2024 Workshop (RAGE-KG 2024), Baltimore, USA",
-    "category": "Invited Talk",
-    "date": "November 11, 2024",
-    "url": ""
+	"id": "2024-11-11-llmeventdrivenwikidata",
+	"title": "Leveraging Large Language Models to Identify Event-Driven Changes in Wikidata Entities",
+	"venue": "Retrieval-Augmented Generation Enabled by Knowledge Graphs 2024 Workshop (RAGE-KG 2024), Baltimore, USA",
+	"category": "Invited Talk",
+	"date": "November 11, 2024",
+	"url": ""
 },
 {
-    "id": "2020-11-04-datastories",
-    "title": "Data Stories: Why data has become vital as never before?",
-    "venue": "The 2020 Scratch National Competition, Irish Computer Society and Lero, Dublin, Ireland",
-    "category": "Keynote",
-    "date": "November 4, 2020",
-    "url": ""
+	"id": "2020-11-04-datastories",
+	"title": "Data Stories: Why data has become vital as never before?",
+	"venue": "The 2020 Scratch National Competition, Irish Computer Society and Lero, Dublin, Ireland",
+	"category": "Keynote",
+	"date": "November 4, 2020",
+	"url": ""
 }, 
 {
-    "id": "2022-03-20-linkedpeoplenet",
-    "title": "Exploring the World of Family Trees in Wikidata and Wikipedia (LinkedPeople.net)",
-    "venue": "Data Reuse Days 2022, Wikimedia Foundation",
-    "category": "Invited Talk",
-    "date": "March 20, 2022",
-    "url": ""
+	"id": "2022-03-20-linkedpeoplenet",
+	"title": "Exploring the World of Family Trees in Wikidata and Wikipedia (LinkedPeople.net)",
+	"venue": "Data Reuse Days 2022, Wikimedia Foundation",
+	"category": "Invited Talk",
+	"date": "March 20, 2022",
+	"url": ""
 }
 
 ]
