@@ -1,13 +1,21 @@
 ---
 
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry} from 'astro:content';
+import { getEntries } from 'astro:content';
 import { Image } from 'astro:assets';
+import PaperItem from "@/components/paper/PaperItem.astro";
+
 
 type Props = CollectionEntry<'project'>['data'];
+
+
 
 const {name, type, full_name, years, summary, featuredImage, heroImage, team, papers, tags} = Astro.props;
 const project_id = Astro.params['slug'];
 
+const project_papers = papers ? await getEntries(papers) : [];
+
+console.log("Papers:", papers);
 ---
 
 	<div class='max-w-4xl mx-auto'>
@@ -45,6 +53,19 @@ const project_id = Astro.params['slug'];
          prose-li:mb-2
          prose-img:rounded-lg prose-img:my-8'
         >
+
+            <slot />
+
 			</div>
 		</article>
+
+
+
+
+        {project_papers.map((project_paper) => (
+
+            <PaperItem paper = {project_paper} />
+        ))}
+
+
 	</div>
