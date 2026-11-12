@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection, getEntries } from 'astro:content';
 
 import ProjectPage from '@/components/project/ProjectPage.astro';
+import PaperItem from "@/components/paper/PaperItem.astro";
 import Layout from "@/layouts/Layout.astro";
 
 import { render } from 'astro:content';
@@ -18,55 +19,24 @@ type Props = CollectionEntry<'project'>;
 const project = Astro.props;
 
 
-const papers = project.data.papers
-  ? await getEntries(project.data.papers)
-  : [];
 const { Content } = await render(project);
 
 ---
+
 <Layout>
-	<ProjectPage {...project.data}>
-		<Content />
-	</ProjectPage>
-
-			<!-- Post content -->
-			<div
-				class='prose mt-8 prose-h2:text-2xl prose-h2:font-bold prose-h2:mb-4
-         prose-h3:text-xl prose-h3:font-semibold prose-h3:mb-3
-         prose-p:mb-4 prose-p:leading-relaxed
-         prose-strong:text-base-content prose-strong:font-bold
-         prose-em:italic
-         prose-a:text-accent prose-a:no-underline hover:prose-a:underline
-         prose-code:text-accent prose-code:bg-base-200 prose-code:px-1 prose-code:py-0.5 prose-code:rounded
-         prose-blockquote:border-l-4 prose-blockquote:border-accent prose-blockquote:pl-4 prose-blockquote:italic
-         prose-ul:list-disc prose-ul:pl-6
-         prose-ol:list-decimal prose-ol:pl-6
-         prose-li:mb-2
-         prose-img:rounded-lg prose-img:my-8'
-        >
-                <Content />
-			</div>
-
-
----
-
-<h2>Publications</h2>
-
-<ul>
-  {papers.map((paper) => (
-    <li>
-      <strong>{paper.data.title}</strong>
-      <p>{paper.data.authors}</p>
-      <span>{paper.data.year}</span>
-    </li>
-  ))}
-</ul>
-
-
-
-
-
+  <ProjectPage {...project.data}>
+    <Content />
+  </ProjectPage>
 </Layout>
+
+
+
+
+
+
+
+
+
 
 
 
