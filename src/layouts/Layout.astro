@@ -3,7 +3,7 @@ import { ClientRouter } from 'astro:transitions';
 
 import BetterIcon from '../components/ui/BetterIcon.astro'
 import DarkLightController from '../components/ui/DarkLightController.astro'
-import ThemeSelector from '../components/ui/ThemeSelector.astro'
+// import ThemeSelector from '../components/ui/ThemeSelector.astro'
 import Navbar from '../components/ui/Navbar.astro'
 import Head from '../components/Head.astro'
 
@@ -34,7 +34,7 @@ const {
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM3GF4Q7GZ"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag(){window.dataLayer.push(arguments);}
 		gtag('js', new Date());
 
 		gtag('config', 'G-ZM3GF4Q7GZ');
