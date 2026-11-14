@@ -9,8 +9,6 @@ featuredImage: './images/saev_logo.png'
 heroImage: './images/saev_overview.png'
 team:
     - Amin Anjomshoaa
-papers:
-    - ewgt2025
 
 ---
 

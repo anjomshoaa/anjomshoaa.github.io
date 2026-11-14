@@ -9,8 +9,6 @@ featuredImage: './images/agriflare_logo.png'
 heroImage: './images/agriflare_overview.png'
 team:
     - Yazzed Abdalla 
-papers:
-    - ensure2025
 tags:
     - Edge AI
     - Fedrated Learning

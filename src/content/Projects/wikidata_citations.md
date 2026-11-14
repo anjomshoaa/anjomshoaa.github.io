@@ -10,8 +10,6 @@ heroImage: './images/wikidata_citations_overview.png'
 team:
     - Hannah Schuster
     - Amin Anjomshoaa
-papers:
-    - scik2024
 ---
 
 Wikidata is a rapidly growing user-edited open knowledge graph that provides easy access to structured data. Since Wikidata allows contradictory information, references are crucial for supporting statements and tracking the source of information. Consequently, investigating the use, types, and scientific value of references within Wikidata is essential. In this paper, we will first conduct a heuristic evaluation of Wikidata references using a sampling method. Subsequently, we will focus on a specific category of references, Digital Object Identifiers
