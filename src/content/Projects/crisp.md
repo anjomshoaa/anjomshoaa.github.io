@@ -19,7 +19,7 @@ papers:
 
 # CRISP Project Description
 
-CRISP project 1111111111111111
+CRISP project
 
 ## Publications
 

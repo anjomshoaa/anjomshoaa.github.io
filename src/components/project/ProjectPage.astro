@@ -14,8 +14,6 @@ const {name, type, full_name, years, summary, featuredImage, heroImage, team, pa
 const project_id = Astro.params['slug'];
 
 const project_papers = papers ? await getEntries(papers) : [];
-
-console.log("Papers:", papers);
 ---
 
 	<div class='max-w-4xl mx-auto'>
