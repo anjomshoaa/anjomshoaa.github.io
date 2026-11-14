@@ -1,6 +1,6 @@
 ---
 name: "City Scanner"
-published: false
+published: true
 type: "featured"
 full_name: "City Scanner Drive-by Urban Environmental Sensing"
 years: 2009-2014
@@ -11,6 +11,6 @@ lead: amin_anjomshoaa
 team:
     - Amin Anjomshoaa
 papers:
-    - d2r2_eswc2023
-    - caise2023
+    - IEEEIOT2018
+    - WFIOT2019
 ---

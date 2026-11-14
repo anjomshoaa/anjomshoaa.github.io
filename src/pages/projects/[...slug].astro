@@ -2,7 +2,7 @@
 import { type CollectionEntry, getCollection, getEntries } from 'astro:content';
 
 import ProjectPage from '@/components/project/ProjectPage.astro';
-import PaperItem from "@/components/paper/PaperItem.astro";
+// import PaperItem from "@/components/paper/PaperItem.astro";
 import Layout from "@/layouts/Layout.astro";
 
 import { render } from 'astro:content';
@@ -30,24 +30,3 @@ const { Content } = await render(project);
 </Layout>
 
 
-
-
-
-
-
-
-
-
-
-
-<!-- <Layout 
-	content_type="video.other"
-	title= {video.data.title}
-	description = {video.data.title}
-	image = {video.data.thumbnail_hq.src}
-	video = {video.data.videoId} >
-
-	<VideoPost {...video.data}>
-		<Content />
-	</VideoPost>
-</Layout> -->

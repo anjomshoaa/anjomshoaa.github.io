@@ -1,6 +1,6 @@
 ---
 name: "Linked Widgets"
-published: false
+published: true
 type: "featured"
 full_name: "Linked Widgets"
 years: 2009-2014
@@ -12,6 +12,7 @@ team:
     - Amin Anjomshoaa
     - Elmar Kiesling 
 papers:
-    - d2r2_eswc2023
-    - caise2023
+    - ESWC2014
+    - ICT2014
+    - JSSR2014
 ---

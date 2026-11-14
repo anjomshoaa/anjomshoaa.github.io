@@ -11,10 +11,11 @@ lead: amin_anjomshoaa
 team:
     - Amin Anjomshoaa
     - Hannah Schuster 
+
 papers:
-    - "202301"
-    - "202303"
-    - "202601"
+    - CAISE2023
+    - D2R22023
+    - DOD2026
 ---
 
 # CRISP Project Description
